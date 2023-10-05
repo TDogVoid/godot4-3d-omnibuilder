@@ -11,6 +11,5 @@ fi
 wget -O FBX2glTF.zip https://github.com/godotengine/FBX2glTF/releases/download/v${DESIRED_FBX2GLTF_VERSION}/FBX2glTF-linux-x86_64.zip 
 unzip FBX2glTF.zip 
 
-mv FBX2glTF /usr/local/bin/FBX2glTF
 mv FBX2glTF-linux-x86_64/FBX2glTF-linux-x86_64 /usr/local/bin/FBX2glTF
 rm FBX2glTF.zip
