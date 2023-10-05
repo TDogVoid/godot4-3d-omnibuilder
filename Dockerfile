@@ -30,7 +30,7 @@ ADD setup_blender_editor_path.sh /opt/scripts/setup_blender_editor_path.sh
 RUN bash /opt/scripts/setup_blender_editor_path.sh
 
 # install FBX2glTF and setup path in editor settings
-ENV FBX2glTF_VERSION="0.13.1"
+ENV FBX2GLTF_VERSION="0.13.1"
 
 ADD install_FBX2glTF.sh /opt/scripts/install_FBX2glTF.sh
 RUN bash /opt/scripts/install_FBX2glTF.sh
